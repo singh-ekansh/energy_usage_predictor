@@ -47,7 +47,7 @@ st.markdown(page_bg, unsafe_allow_html=True)
 # Header
 st.markdown('<div class="header">Electricity Bill Prediction App</div>', unsafe_allow_html=True)
 
-# Load the dataset
+# Loading dataset
 @st.cache_data
 def load_data():
     file_path = 'electricity_bill_dataset.csv'
